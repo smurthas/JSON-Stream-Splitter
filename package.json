@@ -1,7 +1,7 @@
 {
   "name": "json-stream-splitter",
   "description": "Simple helper for splitting streams of newline delimited JSON objects",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Simon Murtha-Smith <simon@murtha-smith.com>",
   "keywords": [
     "json",

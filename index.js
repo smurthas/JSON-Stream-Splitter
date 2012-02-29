@@ -1,4 +1,4 @@
-var EventEmitter = require('EventEmitter');
+var EventEmitter = require('events').EventEmitter;
 
 function RemnantError(remnant) {
   this.name = 'RemnantError'
