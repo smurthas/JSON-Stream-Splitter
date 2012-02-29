@@ -1,0 +1,18 @@
+{
+  "name": "json-stream-splitter",
+  "description": "Simple helper for splitting streams of newline delimited JSON objects",
+  "version": "0.0.1",
+  "author": "Simon Murtha-Smith <simon@murtha-smith.com>",
+  "keywords": [
+    "json",
+    "streaming"
+  ],
+  "main" : "index.js",
+  "repository" : {
+    "type": "git",
+    "url": "http://github.com/smurthas/json-stream-splitter.git"
+  },
+  "engines": {
+    "node": ">=0.6.0 <0.7.0"
+  }
+}
