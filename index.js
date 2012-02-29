@@ -31,5 +31,9 @@ module.exports.splitStream = function(stream, cbEach, cbDone) {
     ee.emit('end');
   });
 
+  stream.on('response', function(resp) {
+    ee.emit('response', resp);
+  });
+
   return ee;
 }
